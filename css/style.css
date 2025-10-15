@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('reset.css');
+
+* {
+    font-family: 'EB Garamond', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow-x: hidden;
+}
+
+img {
+    position: absolute;
+    float: left;
+    object-position: 0 0;
+}
+h1 {
+    font-size: 521px;
+    color: #1E1E1E;
+    position: absolute;
+
+    font-weight: 50;
+}
+
+#g{
+    font-size: 521px;
+    top: 115px;
+    left: 0px;
+
+}
+#l2p1{
+    top: 137px;
+    left: 192px;
+    width: 377px
+
+}
+#l2p2{
+    top: 381px;
+    left: 1063px;
+    width: 377px
+}
+#l3p1{
+    left: 163px;
+    top: 1400px;
+    width: 223px
+}
+#a {
+    position: absolute;
+    font-size: 2000px;
+    font-weight: 500px;
+    transform: rotate(270deg);
+    top: -790px;
+    left: 100px;
+}
+#aram{
+    font-size: 321px;
+    top: 466px;
+    left: 210px;
+}
+#EB {
+    font-size: 480px;
+    top: 135px;
+    left: 292px;
+    color: #696969
+}
+#EBsh{
+    font-size: 480px;
+    top: 125px;
+    left: 312px;
+    color: #E4E4E4
+
+}
+#loop {
+    top: 110px;
+    left: 511px;
+}
+#polosa {
+    width: 100%;
+    height: 15px;
+    background-color: #000;
+    top: 805px
+}
+#polosa2{
+    width: 100%;
+    height: 15px;
+    background-color: #000;
+    top: 855px
+}
+p{
+    position: absolute;
+    font-size: 23px;
+}
+#perehod {
+    top:825px;
+    font-size: 19px;
+}
+#photik { 
+    top: 860px;
+}
+#photik2 {
+    top: 2000px;
+    right: 0;
+    transform: rotate(180deg);
+
+    
+}
+h2{
+    font-size: 321px;
+    color: #1E1E1E;
+    position: absolute;
+    padding-top: 450px;
+    padding-left: 210px;
+    font-weight: 50;
+}
+div {
+    position: absolute;
+    top: 805px;
+
+}
+
+
+
