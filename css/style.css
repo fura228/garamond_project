@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    overflow-x: hidden
+    overflow-x: hidden;
     height: 100vh;
     width: 1470px;
 }
@@ -36,12 +36,52 @@ img {
     width: 1470px;
     animation: scroll 8s linear infinite;
 }
+.content1{
+    position: absolute;
+    overflow:hidden;
+    flex-direction: row;
+
+    
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    height: 67px;
+    color: #FFFFFF;
+    font-size: 49px;
+    white-space: nowrap;
+    width: 1470px;
+    animation: scroll 8s linear infinite;
+    gap: 104px;
+}
+.content2{
+    position: absolute;
+    flex-direction: row;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    height: 67px;
+    color: #FFFFFF;
+    font-size: 49px;
+    white-space: nowrap;
+    width: 1470px;
+    animation: scroll2 8s linear infinite;
+    gap: 104px;
+}
 .row-container{
     position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
     height: 67px;
+}
+.usage-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 91px;
+    top: 400px;
 }
 @keyframes scroll {
     0%{
@@ -413,10 +453,19 @@ div {
 #smoke1{
     top: 605px;
     left: 1142px;
+    animation: smoking 6s ease-in-out infinite;
 }
 #smoke2{
     top: 625px;
     left: 1125px;
+    animation: smoking 4s ease-in-out infinite;
+}
+@keyframes smoking {
+  100% {
+   transform: scale(2);
+   opacity: 0;
+   top: 1px;
+  }
 }
 #cr{
     font-size: 1140px;
@@ -473,4 +522,88 @@ div {
     font-weight: 800;
     top: -432px;
     left: 820px;
+}
+#usage{
+    height: 2059px;
+    background-color: #E8E8E6;
+}
+.blackblock1{
+    position: relative;
+    width: 855px;
+    height: 82px;
+    left: 325px;
+    top: 90px;
+    background-color: #000000
+}
+.blackblock2{
+    position: relative;
+    width: 82px;
+    height: 309px;
+    left: 708px;
+    top: 90px;
+    background-color: #000000
+}
+.godforbid{
+    font-size: 31px;
+    position: relative;
+    line-height: 80%;
+}
+.arrow{ 
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    font-weight: 500;
+    top: 140px;
+    left: -600px;
+}
+.end-arrow{
+    align-items: center;
+}
+.archive{
+    font-size: 50px;
+    line-height: 70%;
+    position: relative;
+}
+.triangle1{
+    font-size: 50px;
+    line-height: 70%;
+    position: relative;
+    font-weight: 500;
+    height: fit-content;
+    align-items: center;
+}
+.rhombus{
+    position: absolute;
+    align-items: center;
+    top: 481px;
+    left: 600px;
+
+
+}
+#reverse{
+    transform: scaleY(-1);
+}
+#art{
+    top: 296px;
+    right: 180px;
+}
+.october{
+    position: relative;
+    font-size: 49px;
+    font-weight: 800;
+}
+.Y{
+    font-size: 264px;
+    font-weight: 500;
+}
+#Y1{
+    top: 172px;
+    left: 588px;
+    transform: rotate(30deg);
+}
+#Y2{
+    top: 172px;
+    left: 750px;
+    transform: rotate(-30deg);
 }
