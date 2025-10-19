@@ -9,9 +9,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    overflow-x: hidden;
+    overflow-x: hidden
     height: 100vh;
-    width: 100%;
+    width: 1470px;
 }
 
 img {
@@ -22,6 +22,7 @@ img {
 .row{
     position: absolute;
     overflow:hidden;
+
     
     display: flex;
     align-items: center;
@@ -58,15 +59,14 @@ img {
         transform: translateX(0);
     }
 }
-.row:hover {
-  animation: paused;
-}
-.row2:hover {
+
+.row-container:hover {
   animation-play-state: paused;
 }
 .row2{
     position: absolute;
     overflow:hidden;
+    
 
     display: flex;
     align-items: center;
@@ -94,41 +94,49 @@ h1 {
 
 }
 #l2p1{
-    top: 142px;
-    left: 191px;
+    padding-top: 70px;
+    left: 197px;
+    
     width: 365px
 
 }
 #l2p2{
-    top: 391px;
-    left: 1092px;
+    left: 1100px;
+    top: 42%;;
     width: 357px
 }
 #l3p1{
-    left: 168px;
-    top: 1244px;
-    width: 230px
+    left: 130px;
+    padding-top: 140px;
+    width: 230px;
+ 
 }
 #a {
-    position: relative;
+    
     font-size: 2000px;
-    font-weight: 500px;
+    font-weight: 500;
     transform: rotate(270deg);
-    top: 1000px;
-    left: 100px;
+    left: 160px;
+    top: -99%;
 }
+
 #a2 {
-    position: relative;
+    
     font-size: 2000px;
-    font-weight: 500px;
+    font-weight: 500;
     transform: rotate(90deg);
-    top: 140px;
+    top: -122%;
+    right: 141px;
+    
+    
 
 }
 #aram{
+    position: absolute;
     font-size: 330px;
     top: 478px;
     left: 210px;
+    
 }
 #EB {
     font-size: 492px;
@@ -144,43 +152,325 @@ h1 {
 
 }
 #loop {
+    position: absolute;
     top: 113px;
     left: 525px;
 }
 
 p{
+    position: absolute;
     
     font-size: 23px;
 }
 #perehod {
-    top:855px;
+    
     font-size: 19px;
 }
 #photik { 
-    top: 895px;
+    
 }
 #photik2 {
-    top: 2000px;
+    
     right: 0;
     transform: rotate(180deg);
 
     
 }
 h2{
-    font-size: 321px;
+    padding-top: 47px;
+    
+    font-size: 99px;
     color: #1E1E1E;
     
-    top: 480px;
-    left: 210px;
+    
     font-weight: 50;
 }
-div {
+section {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: column;
+    
 
 
 }
+.overflow{
+    overflow: hidden;
+}
+div {
+    position: relative;
+    height: 847px;
+    width: 1470px;
+    display: flex;
+    flex-direction: column;
+}
+.nachert1{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    
+    
+    padding-left: 103px
+}
+#reg {
+    font-weight: 400;
+    
+}
+#med {
+    font-weight: 500;
+    
+}
+#semib {
+    position: relative;
+    font-weight: 600;
+}
+#bo {
+    position: relative;
+    font-weight: 700;
+}
+#ebo {
+    position: relative;
+    font-weight: 800;
+}
+
+.sixnine{
+    position: relative;
+    font-size: 69px;
+
+}
+.sixninei{
+    position: relative;
+    font-size: 69px;
+    font-style: italic;
+
+}
+.frame{
+    
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+.nachert{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 191px;
+
+}
+.letters-container{
+    padding-top: 65px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 231px;
+    gap: 117px;
+}
+.rowa{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    border: 2.3px solid #A5A5A5;
+    border-left: none;
+    border-right: none;
+    height: 231px;
+    color: #000000;
+    
+    white-space: nowrap;
+    width: 1470px;
+    
+    
+}
+#bigletter{
+    font-size: 383px;
+    position: relative;
+    font-weight: 500;
+    top: 140px; 
+    left: 46px;
+
+}
+#letterdiscr{
+    font-size: 25px;
+    position: relative;
+    font-weight: 500;
+    width: 332px;
+    top: 400px;
+}
+.description{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    flex-direction: row;
+}
+.videl{
+    background-color: #CCD7D7;
+    position: absolute;
+    border: 1px solid #CCD7D7;
+    transition: scale 1s ease-out
+}
+.videl:hover{
+    scale: 150%;
+ 
+
+}
+#kruga{
+    width: 105px;
+    height: 105px;  
+    top: 90px;
+    left: 82px; 
+    border-radius: 97px;
+
+}
+#krugb{  
+    width: 50px;
+    height: 144px;
+    top: 142px;
+    left: 829px;
+    border-radius: 13px;
+
+}
+#krugp{
+    width: 105px;
+    height: 50px;
+    top: 501px;
+    left: 107px;
+    border-radius: 12px;
+
+}
+#krugg1{
+    width: 59px;
+    height: 57px;
+    top: 362px;
+    left: 780px;
+    border-radius: 97px;
+}
+#krugg2{
+    width: 59px;
+    height: 57px;
+    top: 391px;
+    left: 942px;
+    border-radius: 97px;
+}
+#krugg3{
+    width: 128px;
+    height: 47px;
+    top: 598px;
+    left: 785px;
+    border-radius: 90px;
+}
+#languages{
+    font-size: 72px;
+    padding-top: 15px;
+    font-weight: 600;
+    padding-left: 54px;
+}
+#detective2{
+    top: 15px;
+    right: 0px;
+    transform: scaleX(-1);
+}
+#g2{
+    right: 0px;
+    top:133px;
+    transform: scaleX(-1);
+}
+#line20{
+    position: absolute;
+    height: 692px;
+    top: 95px;
+    left: 129px;
+    border: 3px solid #CCD7D7;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+#line21{
+    position: absolute;
+    width: 882px;
+    top: 458px;
+    left: 130px;
+    border: 3px solid #CCD7D7;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+#lines22{
+    position: absolute;
+    border: 3px solid #CCD7D7;
+    border-bottom: none;
+    border-top: none;
+    width: 391px;
+    height: 57px;
+    top: 428px;
+    left: 479px;
+}
+#cigarette{
+    left: 1144px;
+    top: 736px;
+}
+#smoke1{
+    top: 605px;
+    left: 1142px;
+}
+#smoke2{
+    top: 625px;
+    left: 1125px;
+}
+#cr{
+    font-size: 1140px;
+    font-weight: 800;
+    top: -375px;
 
 
-
+}
+#textcr{
+    font-size: 24px;
+    left: 371px;
+    top: 294px;
+    width: 224px;
+}
+.letters-white{
+    font-size: 225px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+#f{
+    top: 332px;
+    left: 1237px;
+}
+#m{
+    top: 568px;
+    left: 371px;
+}
+#l{
+    font-size: 315px;
+    top: 458px;
+    left: 1053px;
+}
+#textfl{
+    font-size: 27px;
+    width: 419px;
+    top: 249px;
+    left: 28px;
+}
+#fl{ 
+    font-size: 1106px;
+    left: 238px;
+    top: -280px;
+    font-weight: 800;
+    font-style: normal;
+}
+#bigg{
+    font-size: 1738px;
+    left: 347px;
+    top: -587px;
+    font-weight: 800;
+}
+#q{
+    font-size: 1105px;
+    font-weight: 800;
+    top: -432px;
+    left: 820px;
+}
