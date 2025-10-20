@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    overflow-x: hidden;
+    overflow-x: hidden
     height: 100vh;
     width: 1470px;
 }
@@ -606,4 +606,96 @@ div {
     top: 172px;
     left: 750px;
     transform: rotate(-30deg);
+}
+#txt-krug{
+    max-width: 540px;
+    max-height: 540px;
+    top: 879px;
+    left: 465px;
+}
+#triangle-rotate1{
+    top: 20px;
+    left: 10px;
+}
+.a-triangle{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 1802px;
+}
+.a-downto-triangle{
+    font-size: 670px;
+    left:   518px;
+    top: -500px;
+
+}
+#a-rotate1{
+    transform: rotate(55deg);
+    top: -590px;
+    left: 348px;
+}
+#triangle-rotate1{
+    top: -145px;
+    left: -285px;
+    transform: rotate(55deg);
+}
+#triangle-rotate2{
+    top: 15px;
+    left: 10px;
+}
+#a-rotate2{
+    transform: rotate(-55deg) scaleX(-1);
+    top: -590px;
+    left: 691px;
+}
+#triangle-rotate2-1{
+    transform: rotate(-55deg);
+    top: -145px;
+    left: 315px;
+}
+#a-rotate3{
+    transform: rotate(110deg) scaleX(-1);
+    top: -775px;
+    left: 324px;
+}
+#triangle-rotate3{
+    transform: rotate(110deg);
+    top: -455px;
+    left: -330px;
+}
+#a-rotate4{
+    transform: rotate(-110deg);
+    top: -775px;
+    left: 715px;
+}
+#triangle-rotate4{
+    transform: rotate(-110deg);
+    top: -455px;
+    left: 355px;
+}
+.footer{
+    height: fit-content;
+    weight: fit-content;
+}
+.line{
+    height: 61px;
+    border: 9px solid #000000;
+    border-left: none;
+    border-right: none;
+}
+.footer-text{
+    flex-direction: row;
+    gap: 58px;
+    align-items: center;
+    height: fit-content;
+    left: 38px;
+}
+.footer-text-small{
+    font-size: 40px;
+    position: relative;
+}
+.footer-text-big{
+    font-size: 98px;
+    font-weight: 700;
+    position: relative;
 }
