@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    overflow-x: hidden
+    overflow-x: hidden;
     height: 100vh;
     width: 1470px;
 }
@@ -206,9 +206,7 @@ p{
     
     font-size: 19px;
 }
-#photik { 
-    
-}
+
 #photik2 {
     
     right: 0;
@@ -306,6 +304,7 @@ div {
     flex-direction: column;
     height: 231px;
     gap: 117px;
+    pointer-events: none;
 }
 .rowa{
     position: relative;
@@ -329,6 +328,7 @@ div {
     font-weight: 500;
     top: 140px; 
     left: 46px;
+    height: 0px;
 
 }
 #letterdiscr{
@@ -337,6 +337,15 @@ div {
     font-weight: 500;
     width: 332px;
     top: 400px;
+}
+#letterdiscr1{
+    font-size: 25px;
+    position: relative;
+    font-weight: 500;
+    width: 332px;
+    top: 400px;
+    left: 60px;
+    top: 375px;
 }
 .description{
     display: flex;
@@ -348,13 +357,11 @@ div {
     background-color: #CCD7D7;
     position: absolute;
     border: 1px solid #CCD7D7;
-    transition: scale 1s ease-out
+    transition: scale 0.5s ease-out;
 }
 .videl:hover{
-    scale: 150%;
- 
-
-}
+    scale: 120%;
+ }
 #kruga{
     width: 105px;
     height: 105px;  
