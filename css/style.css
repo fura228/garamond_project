@@ -35,6 +35,7 @@ img {
     white-space: nowrap;
     width: 1470px;
     animation: scroll 8s linear infinite;
+    pointer-events: none;
 }
 .content1{
     position: absolute;
@@ -75,6 +76,12 @@ img {
     flex-direction: row;
     height: 67px;
 }
+.row-container:hover .row {
+  animation-play-state: paused;
+}
+.row-container:hover .row2 {
+  animation-play-state: paused;
+}
 .usage-content{
     position: relative;
     width: 100%;
@@ -100,9 +107,7 @@ img {
     }
 }
 
-.row-container:hover {
-  animation-play-state: paused;
-}
+
 .row2{
     position: absolute;
     overflow:hidden;
@@ -119,6 +124,7 @@ img {
     white-space: nowrap;
     width: 1470px;
     animation: scroll2 8s linear infinite;
+    pointer-events: none;
 }
 h1 {
     font-size: 521px;
@@ -682,7 +688,7 @@ div {
 }
 .footer{
     height: fit-content;
-    weight: fit-content;
+    width: fit-content;
 }
 .line{
     height: 61px;
