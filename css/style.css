@@ -144,7 +144,7 @@ h1 {
     color: #1E1E1E;
     position: absolute;
 
-    font-weight: 50;
+    font-weight: 400;
 }
 
 #g{
@@ -240,7 +240,7 @@ h2{
     color: #1E1E1E;
     
     
-    font-weight: 50;
+    font-weight: 400;
 }
 section {
     display: flex;
@@ -269,24 +269,58 @@ div {
     padding-left: 103px
 }
 #reg {
-    font-weight: 400;
+    animation: bolder 2s infinite alternate;
     
+}
+@keyframes bolder {
+    from {
+    font-weight: 400;
+  }
+  to {
+    font-weight: 800;
+  }
 }
 #med {
-    font-weight: 500;
+
+    animation: bolder2 2s infinite alternate;
     
 }
+@keyframes bolder2 {
+    from {
+    font-weight: 500;
+  }
+  to {
+    font-weight: 700;
+    }
+}
 #semib {
-    position: relative;
+
     font-weight: 600;
 }
 #bo {
-    position: relative;
+ 
+
+    animation: thiner 2s infinite alternate;
+}
+@keyframes thiner {
+    from {
     font-weight: 700;
+  }
+  to {
+    font-weight: 500;
+    }
 }
 #ebo {
-    position: relative;
+    animation: thiner2 2s infinite alternate;
+    
+}
+@keyframes thiner2 {
+    from {
     font-weight: 800;
+  }
+  to {
+    font-weight: 400;
+    }
 }
 
 .sixnine{
@@ -637,7 +671,7 @@ div {
     max-width: 540px;
     max-height: 540px;
     top: 879px;
-    left: 465px;
+    left: 485px;
 }
 #triangle-rotate1{
     top: 20px;
