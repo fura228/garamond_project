@@ -647,7 +647,16 @@ div {
 #art{
     top: 296px;
     right: 180px;
+
 }
+@keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
 .october{
     position: relative;
     font-size: 49px;
@@ -672,6 +681,10 @@ div {
     max-height: 540px;
     top: 879px;
     left: 485px;
+    animation: spin 15s linear infinite;
+}
+#txt-krug:hover {
+    animation-play-state: paused;
 }
 #triangle-rotate1{
     top: 20px;
