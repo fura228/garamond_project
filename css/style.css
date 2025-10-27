@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-
 @import url('reset.css');
 
 * {
     font-family: 'EB Garamond', sans-serif;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +13,8 @@ body {
     height: 100vh;
     width: 1470px;
 }
-.poster{ 
+
+.poster {
     position: absolute;
     flex-direction: row;
     gap: 48px;
@@ -22,7 +23,8 @@ body {
     align-items: center;
     padding-left: 65px;
 }
-.relative{
+
+.relative {
     position: relative;
     height: fit-content;
 }
@@ -30,13 +32,11 @@ body {
 img {
     position: absolute;
     float: left;
-
 }
-.row{
-    position: absolute;
-    overflow:hidden;
 
-    
+.row {
+    position: absolute;
+    overflow: hidden;
     display: flex;
     align-items: center;
     border: 15px solid #000000;
@@ -50,12 +50,11 @@ img {
     animation: scroll 8s linear infinite;
     pointer-events: none;
 }
-.content1{
-    position: absolute;
-    overflow:hidden;
-    flex-direction: row;
 
-    
+.content1 {
+    position: absolute;
+    overflow: hidden;
+    flex-direction: row;
     display: flex;
     align-items: center;
     background-color: #000000;
@@ -67,10 +66,11 @@ img {
     animation: scroll 8s linear infinite;
     gap: 104px;
 }
-.content2{
+
+.content2 {
     position: absolute;
     flex-direction: row;
-    overflow:hidden;
+    overflow: hidden;
     display: flex;
     align-items: center;
     background-color: #000000;
@@ -82,20 +82,24 @@ img {
     animation: scroll2 8s linear infinite;
     gap: 104px;
 }
-.row-container{
+
+.row-container {
     position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
     height: 67px;
 }
+
 .row-container:hover .row {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
+
 .row-container:hover .row2 {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
-.usage-content{
+
+.usage-content {
     position: relative;
     width: 100%;
     display: flex;
@@ -103,29 +107,30 @@ img {
     height: 91px;
     top: 400px;
 }
+
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    100%{
+
+    100% {
         transform: translateX(100%);
     }
 }
+
 @keyframes scroll2 {
-    0%{
+    0% {
         transform: translateX(-100%);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 }
 
-
-.row2{
+.row2 {
     position: absolute;
-    overflow:hidden;
-    
-
+    overflow: hidden;
     display: flex;
     align-items: center;
     border: 15px solid #000000;
@@ -139,39 +144,39 @@ img {
     animation: scroll2 8s linear infinite;
     pointer-events: none;
 }
+
 h1 {
     font-size: 521px;
     color: #1E1E1E;
     position: absolute;
-
     font-weight: 400;
 }
 
-#g{
+#g {
     font-size: 536px;
     top: 100px;
-
 }
-#l2p1{
+
+#l2p1 {
     padding-top: 70px;
     left: 197px;
-    
     width: 365px
-
 }
-#l2p2{
+
+#l2p2 {
     left: 1100px;
-    top: 42%;;
+    top: 42%;
+    ;
     width: 357px
 }
-#l3p1{
+
+#l3p1 {
     left: 130px;
     padding-top: 140px;
     width: 230px;
- 
 }
+
 #a {
-    
     font-size: 2000px;
     font-weight: 500;
     transform: rotate(270deg);
@@ -180,79 +185,71 @@ h1 {
 }
 
 #a2 {
-    
     font-size: 2000px;
     font-weight: 500;
     transform: rotate(90deg);
     top: -122%;
     right: 141px;
-    
-    
-
 }
-#aram{
+
+#aram {
     position: absolute;
     font-size: 330px;
     top: 478px;
     left: 210px;
-    
 }
+
 #EB {
     font-size: 492px;
     top: 139px;
     left: 300px;
     color: #696969
 }
-#EBsh{
+
+#EBsh {
     font-size: 492px;
     top: 129px;
     left: 310px;
     color: #E4E4E4
-
 }
+
 #loop {
     position: absolute;
     top: 113px;
     left: 525px;
 }
 
-p{
+p {
     position: absolute;
-    
     font-size: 23px;
 }
+
 #perehod {
-    
     font-size: 19px;
 }
 
 #photik2 {
-    
     right: 0;
     transform: rotate(180deg);
-
-    
 }
-h2{
+
+h2 {
     padding-top: 47px;
-    
     font-size: 99px;
     color: #1E1E1E;
-    
-    
     font-weight: 400;
 }
+
 section {
     display: flex;
     position: absolute;
     flex-direction: column;
-    
-
-
 }
-.overflow{
+
+.overflow {
     overflow: hidden;
 }
+
 div {
     position: relative;
     height: 847px;
@@ -260,96 +257,99 @@ div {
     display: flex;
     flex-direction: column;
 }
-.nachert1{
+
+.nachert1 {
     display: flex;
     flex-direction: column;
     gap: 34px;
-    
-    
     padding-left: 103px
 }
+
 #reg {
     animation: bolder 2s infinite alternate;
-    
 }
+
 @keyframes bolder {
     from {
-    font-weight: 400;
-  }
-  to {
-    font-weight: 800;
-  }
-}
-#med {
+        font-weight: 400;
+    }
 
-    animation: bolder2 2s infinite alternate;
-    
+    to {
+        font-weight: 800;
+    }
 }
+
+#med {
+    animation: bolder2 2s infinite alternate;
+}
+
 @keyframes bolder2 {
     from {
-    font-weight: 500;
-  }
-  to {
-    font-weight: 700;
+        font-weight: 500;
+    }
+
+    to {
+        font-weight: 700;
     }
 }
-#semib {
 
+#semib {
     font-weight: 600;
 }
-#bo {
- 
 
+#bo {
     animation: thiner 2s infinite alternate;
 }
+
 @keyframes thiner {
     from {
-    font-weight: 700;
-  }
-  to {
-    font-weight: 500;
+        font-weight: 700;
+    }
+
+    to {
+        font-weight: 500;
     }
 }
+
 #ebo {
     animation: thiner2 2s infinite alternate;
-    
 }
+
 @keyframes thiner2 {
     from {
-    font-weight: 800;
-  }
-  to {
-    font-weight: 400;
+        font-weight: 800;
+    }
+
+    to {
+        font-weight: 400;
     }
 }
 
-.sixnine{
+.sixnine {
     position: relative;
     font-size: 69px;
-
 }
-.sixninei{
+
+.sixninei {
     position: relative;
     font-size: 69px;
     font-style: italic;
-
 }
-.frame{
-    
+
+.frame {
     width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 6px;
-
 }
-.nachert{
-    
+
+.nachert {
     display: flex;
     flex-direction: row;
     gap: 191px;
-
 }
-.letters-container{
+
+.letters-container {
     padding-top: 65px;
     position: relative;
     width: 100%;
@@ -359,7 +359,8 @@ div {
     gap: 117px;
     pointer-events: none;
 }
-.rowa{
+
+.rowa {
     position: relative;
     flex-direction: row;
     display: flex;
@@ -369,29 +370,28 @@ div {
     border-right: none;
     height: 231px;
     color: #000000;
-    
     white-space: nowrap;
     width: 1470px;
-    
-    
 }
-#bigletter{
+
+#bigletter {
     font-size: 383px;
     position: relative;
     font-weight: 500;
-    top: 140px; 
+    top: 140px;
     left: 46px;
     height: 0px;
-
 }
-#letterdiscr{
+
+#letterdiscr {
     font-size: 25px;
     position: relative;
     font-weight: 500;
     width: 332px;
     top: 400px;
 }
-#letterdiscr1{
+
+#letterdiscr1 {
     font-size: 25px;
     position: relative;
     font-weight: 500;
@@ -400,83 +400,93 @@ div {
     left: 60px;
     top: 375px;
 }
-.description{
+
+.description {
     display: flex;
     gap: 60px;
     position: relative;
     flex-direction: row;
 }
-.videl{
+
+.videl {
     background-color: #CCD7D7;
     position: absolute;
     border: 1px solid #CCD7D7;
     transition: scale 0.5s ease-out;
 }
-.videl:hover{
-    scale: 120%;
- }
-#kruga{
-    width: 105px;
-    height: 105px;  
-    top: 90px;
-    left: 82px; 
-    border-radius: 97px;
 
+.videl:hover {
+    scale: 120%;
 }
-#krugb{  
+
+#kruga {
+    width: 105px;
+    height: 105px;
+    top: 90px;
+    left: 82px;
+    border-radius: 97px;
+}
+
+#krugb {
     width: 50px;
     height: 144px;
     top: 142px;
     left: 829px;
     border-radius: 13px;
-
 }
-#krugp{
+
+#krugp {
     width: 105px;
     height: 50px;
     top: 501px;
     left: 107px;
     border-radius: 12px;
-
 }
-#krugg1{
+
+#krugg1 {
     width: 59px;
     height: 57px;
     top: 362px;
     left: 780px;
     border-radius: 97px;
 }
-#krugg2{
+
+#krugg2 {
     width: 59px;
     height: 57px;
     top: 391px;
     left: 942px;
     border-radius: 97px;
 }
-#krugg3{
+
+#krugg3 {
     width: 128px;
     height: 47px;
     top: 598px;
     left: 785px;
     border-radius: 90px;
 }
-#languages{
+
+#languages {
     font-size: 72px;
     padding-top: 15px;
     font-weight: 600;
     padding-left: 54px;
 }
-#detective2{
+
+#detective2 {
     top: 15px;
     right: 0px;
     transform: scaleX(-1);
 }
-#g2{
+
+#g2 {
     right: 0px;
-    top:133px;
+    top: 133px;
     transform: scaleX(-1);
 }
-#line20{
+
+#line20 {
     position: absolute;
     height: 692px;
     top: 95px;
@@ -486,7 +496,8 @@ div {
     border-top: none;
     border-right: none;
 }
-#line21{
+
+#line21 {
     position: absolute;
     width: 882px;
     top: 458px;
@@ -496,7 +507,8 @@ div {
     border-bottom: none;
     border-right: none;
 }
-#lines22{
+
+#lines22 {
     position: absolute;
     border: 3px solid #CCD7D7;
     border-bottom: none;
@@ -506,88 +518,102 @@ div {
     top: 428px;
     left: 479px;
 }
-#cigarette{
+
+#cigarette {
     left: 1144px;
     top: 736px;
 }
-#smoke1{
+
+#smoke1 {
     top: 605px;
     left: 1142px;
     animation: smoking 6s ease-in-out infinite;
 }
-#smoke2{
+
+#smoke2 {
     top: 625px;
     left: 1125px;
     animation: smoking 4s ease-in-out infinite;
 }
+
 @keyframes smoking {
-  100% {
-   transform: scale(2);
-   opacity: 0;
-   top: 1px;
-  }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+        top: 1px;
+    }
 }
-#cr{
+
+#cr {
     font-size: 1140px;
     font-weight: 800;
     top: -375px;
-
-
 }
-#textcr{
+
+#textcr {
     font-size: 24px;
     left: 371px;
     top: 294px;
     width: 224px;
 }
-.letters-white{
+
+.letters-white {
     font-size: 225px;
     font-style: italic;
     color: #FFFFFF;
 }
-#f{
+
+#f {
     top: 332px;
     left: 1237px;
 }
-#m{
+
+#m {
     top: 568px;
     left: 371px;
 }
-#l{
+
+#l {
     font-size: 315px;
     top: 458px;
     left: 1053px;
 }
-#textfl{
+
+#textfl {
     font-size: 27px;
     width: 419px;
     top: 249px;
     left: 28px;
 }
-#fl{ 
+
+#fl {
     font-size: 1106px;
     left: 238px;
     top: -280px;
     font-weight: 800;
     font-style: normal;
 }
-#bigg{
+
+#bigg {
     font-size: 1738px;
     left: 347px;
     top: -587px;
     font-weight: 800;
 }
-#q{
+
+#q {
     font-size: 1105px;
     font-weight: 800;
     top: -432px;
     left: 820px;
 }
-#usage{
+
+#usage {
     height: 2059px;
     background-color: #E8E8E6;
 }
-.blackblock1{
+
+.blackblock1 {
     position: relative;
     width: 855px;
     height: 82px;
@@ -595,7 +621,8 @@ div {
     top: 90px;
     background-color: #000000
 }
-.blackblock2{
+
+.blackblock2 {
     position: relative;
     width: 82px;
     height: 309px;
@@ -603,12 +630,14 @@ div {
     top: 90px;
     background-color: #000000
 }
-.godforbid{
+
+.godforbid {
     font-size: 31px;
     position: relative;
     line-height: 80%;
 }
-.arrow{ 
+
+.arrow {
     position: absolute;
     height: fit-content;
     width: fit-content;
@@ -617,15 +646,18 @@ div {
     top: 140px;
     left: -600px;
 }
-.end-arrow{
+
+.end-arrow {
     align-items: center;
 }
-.archive{
+
+.archive {
     font-size: 50px;
     line-height: 70%;
     position: relative;
 }
-.triangle1{
+
+.triangle1 {
     font-size: 50px;
     line-height: 70%;
     position: relative;
@@ -633,141 +665,165 @@ div {
     height: fit-content;
     align-items: center;
 }
-.rhombus{
+
+.rhombus {
     position: absolute;
     align-items: center;
     top: 481px;
     left: 600px;
-
-
 }
-#reverse{
+
+#reverse {
     transform: scaleY(-1);
 }
-#art{
+
+#art {
     top: 296px;
     right: 180px;
-
 }
+
 @keyframes spin {
-      from {
+    from {
         transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
     }
-.october{
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.october {
     position: relative;
     font-size: 49px;
     font-weight: 800;
 }
-.Y{
+
+.Y {
     font-size: 264px;
     font-weight: 500;
 }
-#Y1{
+
+#Y1 {
     top: 172px;
     left: 588px;
     transform: rotate(30deg);
 }
-#Y2{
+
+#Y2 {
     top: 172px;
     left: 750px;
     transform: rotate(-30deg);
 }
-#txt-krug{
+
+#txt-krug {
     max-width: 540px;
     max-height: 540px;
     top: 879px;
     left: 485px;
     animation: spin 15s linear infinite;
 }
+
 #txt-krug:hover {
     animation-play-state: paused;
 }
-#triangle-rotate1{
+
+#triangle-rotate1 {
     top: 20px;
     left: 10px;
 }
-.a-triangle{
+
+.a-triangle {
     height: fit-content;
     width: fit-content;
     position: absolute;
     top: 1802px;
 }
-.a-downto-triangle{
-    font-size: 670px;
-    left:   518px;
-    top: -500px;
 
+.a-downto-triangle {
+    font-size: 670px;
+    left: 518px;
+    top: -500px;
 }
-#a-rotate1{
+
+#a-rotate1 {
     transform: rotate(55deg);
     top: -590px;
     left: 348px;
 }
-#triangle-rotate1{
+
+#triangle-rotate1 {
     top: -145px;
     left: -285px;
     transform: rotate(55deg);
 }
-#triangle-rotate2{
+
+#triangle-rotate2 {
     top: 15px;
     left: 10px;
 }
-#a-rotate2{
+
+#a-rotate2 {
     transform: rotate(-55deg) scaleX(-1);
     top: -590px;
     left: 691px;
 }
-#triangle-rotate2-1{
+
+#triangle-rotate2-1 {
     transform: rotate(-55deg);
     top: -145px;
     left: 315px;
 }
-#a-rotate3{
+
+#a-rotate3 {
     transform: rotate(110deg) scaleX(-1);
     top: -775px;
     left: 324px;
 }
-#triangle-rotate3{
+
+#triangle-rotate3 {
     transform: rotate(110deg);
     top: -455px;
     left: -330px;
 }
-#a-rotate4{
+
+#a-rotate4 {
     transform: rotate(-110deg);
     top: -775px;
     left: 715px;
 }
-#triangle-rotate4{
+
+#triangle-rotate4 {
     transform: rotate(-110deg);
     top: -455px;
     left: 355px;
 }
-.footer{
+
+.footer {
     height: fit-content;
     width: fit-content;
 }
-.line{
+
+.line {
     height: 61px;
     border: 9px solid #000000;
     border-left: none;
     border-right: none;
 }
-.footer-text{
+
+.footer-text {
     flex-direction: row;
     gap: 58px;
     align-items: center;
     height: fit-content;
     left: 38px;
 }
-.footer-text-small{
+
+.footer-text-small {
     font-size: 40px;
     position: relative;
 }
-.footer-text-big{
+
+.footer-text-big {
     font-size: 98px;
     font-weight: 700;
     position: relative;
