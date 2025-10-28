@@ -427,39 +427,6 @@ div {
     transform: scaleX(-1);
 }
 
-#line20 {
-    position: absolute;
-    height: 692px;
-    top: 95px;
-    left: 129px;
-    border: 3px solid #CCD7D7;
-    border-bottom: none;
-    border-top: none;
-    border-right: none;
-}
-
-#line21 {
-    position: absolute;
-    width: 882px;
-    top: 458px;
-    left: 130px;
-    border: 3px solid #CCD7D7;
-    border-left: none;
-    border-bottom: none;
-    border-right: none;
-}
-
-#lines22 {
-    position: absolute;
-    border: 3px solid #CCD7D7;
-    border-bottom: none;
-    border-top: none;
-    width: 391px;
-    height: 57px;
-    top: 428px;
-    left: 479px;
-}
-
 #cigarette {
     left: 1144px;
     top: 736px;
