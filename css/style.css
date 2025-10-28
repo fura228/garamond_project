@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('reset.css');
+@import url('animations.css');
 
 * {
     font-family: 'EB Garamond', sans-serif;
@@ -106,26 +107,6 @@ img {
     flex-direction: row;
     height: 91px;
     top: 400px;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-}
-
-@keyframes scroll2 {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
 }
 
 .row2 {
@@ -269,28 +250,8 @@ div {
     animation: bolder 2s infinite alternate;
 }
 
-@keyframes bolder {
-    from {
-        font-weight: 400;
-    }
-
-    to {
-        font-weight: 800;
-    }
-}
-
 #med {
     animation: bolder2 2s infinite alternate;
-}
-
-@keyframes bolder2 {
-    from {
-        font-weight: 500;
-    }
-
-    to {
-        font-weight: 700;
-    }
 }
 
 #semib {
@@ -301,28 +262,8 @@ div {
     animation: thiner 2s infinite alternate;
 }
 
-@keyframes thiner {
-    from {
-        font-weight: 700;
-    }
-
-    to {
-        font-weight: 500;
-    }
-}
-
 #ebo {
     animation: thiner2 2s infinite alternate;
-}
-
-@keyframes thiner2 {
-    from {
-        font-weight: 800;
-    }
-
-    to {
-        font-weight: 400;
-    }
 }
 
 .sixnine {
@@ -536,14 +477,6 @@ div {
     animation: smoking 4s ease-in-out infinite;
 }
 
-@keyframes smoking {
-    100% {
-        transform: scale(2);
-        opacity: 0;
-        top: 1px;
-    }
-}
-
 #cr {
     font-size: 1140px;
     font-weight: 800;
@@ -680,16 +613,6 @@ div {
 #art {
     top: 296px;
     right: 180px;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 .october {
